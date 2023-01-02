@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+    // .leftContainer {
+
+    //     //background: url(../img/fondobcp.jpg);
+    //     min-height: 50%;
+    //     min-width: 50%;
+    //     display: grid;
+    //     place-content: center;
+
+    //     .logocon {
+    //         position:'relative';
+    //         left:'0';
+    //         top: '0';
+
+    //     }
+
+    //     .Branding {
+    //         display: flex;
+
+    //         .NavTitulo {
+    //             color: white;
+    //             font-size: 3rem;
+    //             align-self: center;
+    //             font-style: italic;
+    //         }
+
+    //         .icon {
+    //             position: fixed;
+    //             width: 69% ;
+    //             height: 120%;
+    //             // right: 85px;
+    //             top: -95px;
+    //             // min-width: 100px;
+    //             // min-height: 100px;
+    //             right: calc(50% - 50px);
+            
+    //         }
+    //     }
+    // }
+
+    .LandingContainer {
+        display: flex;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        
+    
+        .leftContainer {
+            background-image: url(../img/fondobcpmejorado6.jpg);
+            min-height: 50%;
+            min-width: 35%;
+            display: grid;
+            place-content: center;
+           
+            .Branding {
+                display: flex;
+               
+                .NavTitulo {
+                    color: #202E44;
+                    font-size: small;
+                    position:absolute;
+                    padding: 2px;
+                    left: 1410px;
+                    bottom: 640px;
+                    top: 0px;
+                    margin:0;
+                    font-family: 'Nanum Pen Script', cursive;
+                    
+                    
+                .title {
+                    position: absolute;
+                    font-size: 1px;
+                    font-weight: 1px;
+                }
+                }
+
+                .icon {
+                    max-width: 90px;
+                    max-height: 90px;
+                    position: fixed;
+                    right: 1800px;
+                    bottom: 640px;
+                    top: 20px;
+                }
+
+            }
+
+        }
+        
+    }
+
+/* ---------------------------------------------------------------------------------------------------------------------------------
+                                                        FULLY RESPONSIVE PAGE
+--------------------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1110px) {
+    .about-me-parent {
+      width: 88%;
+    }
+  }
+  @media only screen and (max-width: 898px) {
+    
+    .LandingContainer {
+        display: flex;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        
+    
+        .leftContainer {
+            background-image: url(../img/fondobcpmejorado6.jpg);
+            min-height: 50%;
+            min-width: 35%;
+            display: grid;
+            place-content: center;
+           
+            .Branding {
+                display: flex;
+               
+                .NavTitulo {
+                    color: #202E44;
+                    font-size: small;
+                    position:absolute;
+                    padding: 2px;
+                    left: 1410px;
+                    bottom: 640px;
+                    top: 0px;
+                    margin:0;
+                    font-family: 'Nanum Pen Script', cursive;
+                    
+                    
+                .title {
+                    position: absolute;
+                    font-size: 1px;
+                    font-weight: 1px;
+                }
+                }
+
+                .icon {
+                    max-width: 90px;
+                    max-height: 90px;
+                    position: fixed;
+                    right: 1800px;
+                    bottom: 640px;
+                    top: 20px;
+                }
+
+            }
+
+        }
+        
+    }
+
+  }
+  @media only screen and (max-width: 466px) {
+    .about-me-options {
+      display: flex;
+      flex-direction: column;
+    }
+    .about-me-options .highlighted-btn {
+      margin: 24px 0 0 0 !important;
+    }
+    .about-me-options button {
+      width: 100%;
+    }
+  }
+  
